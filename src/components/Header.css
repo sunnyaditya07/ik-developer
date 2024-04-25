@@ -1,0 +1,33 @@
+.ik-header-logo-menu-container {
+  padding: 20px 100px 20px 100px;
+  box-shadow: 0px 4px 40px 0px rgba(0, 0, 0, 0.1);
+}
+
+.ik-header-logo-text {
+  font-family: "Inspiration", cursive;
+  font-size: 24px;
+  font-weight: 400;
+  color: #000;
+}
+.ik-header-logo-container {
+  cursor: pointer;
+}
+.ik-header-logo-text {
+  margin-left: 10px;
+}
+.ik-header-menu-container {
+  gap: 40px;
+  padding: 10px 0 10px 0;
+  cursor: pointer;
+  font-weight: 500;
+}
+.ik-header-contact-us-text {
+  background: linear-gradient(to top right, #57007b 0%, #6675f7 100%);
+  /* background: linear-gradient(to top right, #6675f7 100%, #57007b 100%); */
+  padding: 14px 25px 14px 25px;
+  color: #fafafa;
+  font-size: 14px;
+  border-radius: 5px;
+  font-weight: 600;
+  cursor: pointer;
+}

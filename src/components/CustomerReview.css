@@ -1,0 +1,39 @@
+.ik-cr-main-container {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.ik-cr-container {
+  justify-content: center;
+}
+
+.ik-cr-title-box {
+  font-size: 34px;
+  line-height: 1.5;
+  color: #1a202c;
+  margin-bottom: 80px;
+}
+.ik-cr-wroking-text {
+  font-weight: 700;
+}
+.ik-cr-description-container {
+  width: 45%;
+  line-height: 2;
+  font-size: 18px;
+  color: #718096;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.ik-cr-description-text {
+  text-align: center;
+}
+.ik-cr-colon-one {
+  left: -80px;
+}
+.ik-cr-colon-two {
+  right: -80px;
+  bottom: 0;
+}
+.ik-cr-customer-img-container {
+  gap: 20px;
+  margin-top: 80px;
+}

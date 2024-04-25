@@ -1,0 +1,75 @@
+.ik-services-main-container {
+  border-top: 1px solid #e7daed;
+  border-bottom: 1px solid #e7daed;
+  background: #f9f9ff;
+}
+.ik-services-box-container {
+  padding: 40px 0px 40px 0px;
+}
+.ik-services-text {
+  font-size: 34px;
+  color: #1a202c;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+.ik-services-section-box {
+  width: 32%;
+  background: #ffff;
+  border-radius: 5px;
+  padding: 25px 15px 25px 15px;
+  box-shadow: 0px 4px 49px 0px rgba(0, 0, 0, 0.15);
+}
+.ik-services-middle-box {
+  border: 1px solid #f76680;
+}
+.ik-services-icon-container {
+  width: 50px;
+  height: 50px;
+  border: 1px solid #f76680;
+  border-radius: 50%;
+}
+.ik-services-center-text {
+  font-size: 20px;
+  font-weight: 600;
+  padding: 20px 0 20px 0;
+}
+.ik-services-end-text {
+  font-size: 14px;
+  color: #4a5568;
+  line-height: 1.5;
+}
+.ik-service-section-carousel-main-container {
+  margin-top: 40px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.ik-services-carousel-btn {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  border: 1px solid #cbd5e0;
+}
+.ik-services-empty-box {
+  width: 200px;
+}
+.ik-services-carousel-container {
+  width: 200px;
+  gap: 10px;
+}
+.ik-services-active-carousel {
+  background: linear-gradient(to bottom, #f76680 0%, #57007b 100%);
+}
+.ik-services-carousel-indicator {
+  width: 150px;
+  height: 4px;
+  background-color: #e2e8f0;
+}
+.ik-services-carousel-filled {
+  width: 100px;
+  height: 4px;
+  background: linear-gradient(to bottom, #f76680 0%, #57007b 100%);
+}
+.ik-services-carousel-number-container {
+  width: 200px;
+  gap: 5px;
+}

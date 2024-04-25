@@ -1,0 +1,46 @@
+.ik-hero-section-main-container {
+  position: relative;
+}
+.ik-hero-section-container {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  justify-content: space-between;
+}
+.ik-hero-section-title-container {
+  width: 50%;
+}
+.ik-hero-title-one {
+  font-size: 45px;
+  font-weight: 300;
+  color: #1a202c;
+}
+.ik-hero-product-span {
+  font-weight: 600;
+}
+.ik-hero-title-two {
+  font-size: 45px;
+  color: #1a202c;
+  font-weight: 600;
+  line-height: 1.5;
+}
+.ik-hero-section-subtiext {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-top: 20px;
+}
+.ik-hero-section-btn {
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 19px 30px 19px 30px;
+  background: #3d63ea;
+  cursor: pointer;
+  border-radius: 5px;
+  color: #fafafa;
+  margin-top: 70px;
+  box-shadow: 0px 4px 49px 0px rgba(0, 0, 0, 0.15);
+}
+.ik-hero-half-circle-position {
+  bottom: 0;
+  left: 450px;
+}

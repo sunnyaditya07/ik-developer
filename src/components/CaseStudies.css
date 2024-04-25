@@ -1,0 +1,67 @@
+.ik-cs-main-container {
+  background: #f7f7fa;
+  padding-top: 80px;
+}
+.ik-cs-container {
+  width: 100%;
+  border-radius: 10px;
+  border: 1px solid #e7daed;
+  justify-content: space-between;
+}
+.ik-cs-img-container {
+  /* width: 50%; */
+}
+.ik-cs-img-container img {
+  width: 100%;
+}
+
+.ik-cs-backgroun-one {
+  background: #f1f2ff;
+}
+.ik-cs-backgroun-two {
+  background: #f0fff7;
+}
+.ik-cs-backgroun-three {
+  background: #fff4f4;
+}
+.ik-cs-description-box {
+  padding: 60px 40px;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.ik-cs-description-title {
+  color: #2d3748;
+  font-size: 28px;
+  font-weight: 600;
+}
+.ik-cs-description-text {
+  font-size: 14px;
+  color: #4a5568;
+  line-height: 2;
+  /* margin-top: 40px; */
+}
+.ik-cs-read-more-container {
+  /* margin-top: 40px; */
+  justify-content: end;
+}
+.ik-cs-boxes-container {
+  gap: 40px;
+}
+
+.ik-cs-read-cases-box {
+  justify-content: end;
+  padding-top: 40px;
+  padding-bottom: 80px;
+}
+.ik-cs-read-cases-text {
+  font-size: 20px;
+  font-weight: 600;
+}
+.ik-cs-read-more-text {
+  font-weight: 600;
+}
+.ik-cs-chevron-icon {
+  margin-left: 10px;
+}
