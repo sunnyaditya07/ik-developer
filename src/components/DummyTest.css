@@ -1,0 +1,95 @@
+.arc {
+  width: 100px; /* Adjust as needed */
+  height: 100px; /* Adjust as needed */
+  /* border: 4px solid black; */
+  border-radius: 0 100% 0 0; /* Top-right corner for a quarter circle */
+  background-color: transparent;
+  border-bottom: 4px solid transparent;
+  border-left: 4px solid transparent;
+}
+.ik-dummy-test-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: 700px;
+  gap: 5px;
+  position: relative;
+}
+.arc1 {
+  /* border: 4px solid red; */
+  transform: rotate(270deg);
+  /* border-bottom: 4px solid #fff;
+  border-left: 4px solid #fff; */
+}
+.arc2 {
+  /* border: 4px solid green; */
+  /* transform: rotate(180deg); */
+  /* border-bottom: 4px solid #fff;
+  border-left: 4px solid #fff; */
+}
+.arc3 {
+  /* border: 4px solid #000; */
+  transform: rotate(180deg);
+  /* border-bottom: 4px solid #fff;
+  border-left: 4px solid #fff; */
+}
+
+.arc4 {
+  /* border: 4px solid yellow; */
+  transform: rotate(90deg);
+  /* border-bottom: 4px solid #fff;
+  border-left: 4px solid #fff; */
+}
+.ik-cs-arc-container-1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.ik-cs-arc-container-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+.black-border {
+  border: 4px solid #000;
+  border-bottom: 4px solid #fff;
+  border-left: 4px solid #fff;
+}
+
+.blue-border {
+  border: 4px solid blue;
+  border-bottom: 4px solid #fff;
+  border-left: 4px solid #fff;
+}
+
+.blank-line-container {
+  display: flex;
+  gap: 10px;
+}
+
+.blank-line {
+  width: 150px;
+}
+.line-black-border {
+  border: 2px solid black;
+}
+.line-blue-border {
+  border: 2px solid blue;
+}
+.blank-line-main-container {
+  display: flex;
+  gap: 120px;
+  position: absolute;
+  bottom: 40%;
+}
+
+.ik-buton-box {
+  display: flex;
+  gap: 10px;
+  padding-top: 40px;
+}

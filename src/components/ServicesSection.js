@@ -8,7 +8,7 @@ const ServicesSection = () => {
           <p className="ik-services-text">Services we offer</p>
         </div>
         <div className="paddin-left  paddin-right ">
-          <div className="display-flex align-items-center justify-content-space-between">
+          <div className="display-flex align-items-center justify-content-space-between ik-services-main-cont">
             <div className="ik-services-section-box">
               <div className="display-flex align-items-center justify-content-center ik-services-icon-container">
                 <img src={require("../assets/code.png")} alt="logo" />
@@ -50,7 +50,7 @@ const ServicesSection = () => {
             </div>
           </div>
         </div>
-        <div className="display-flex  align-items-center justify-content-space-between ik-service-section-carousel-main-container">
+        <div className="display-flex  align-items-center justify-content-center ik-service-section-carousel-main-container">
           <div className="ik-services-empty-box"></div>
           <div className="ik-services-carousel-container display-flex  align-items-center justify-content-center">
             <div className="ik-services-carousel-btn"></div>
@@ -59,12 +59,14 @@ const ServicesSection = () => {
             <div className="ik-services-carousel-btn"></div>
             <div className="ik-services-carousel-btn"></div>
           </div>
-          <div className="display-flex  align-items-center ik-services-carousel-number-container ">
-            <p>01</p>
-            <div className="ik-services-carousel-indicator">
-              <div className="ik-services-carousel-filled"></div>
+          <div className="ik-services-carousel-cont">
+            <div className="display-flex  align-items-center ik-services-carousel-number-container ">
+              <p>01</p>
+              <div className="ik-services-carousel-indicator">
+                <div className="ik-services-carousel-filled"></div>
+              </div>
+              <p>05</p>
             </div>
-            <p>05</p>
           </div>
         </div>
       </div>

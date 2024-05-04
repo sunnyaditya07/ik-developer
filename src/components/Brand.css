@@ -4,4 +4,9 @@
   background: #f7f7fa;
   border-top: 1px solid #e7daed;
   border-bottom: 1px solid #e7daed;
+  overflow: scroll;
+  gap: 30px;
+}
+.brand-logo {
+  width: 150px;
 }

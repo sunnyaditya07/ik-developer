@@ -31,11 +31,31 @@ const CustomerReview = () => {
             />
           </div>
           <div className="ik-cr-customer-img-container display-flex align-items-center">
-            <img src={require("../assets/r1.png")} alt="customer" />
-            <img src={require("../assets/r2.png")} alt="customer" />
-            <img src={require("../assets/r3.png")} alt="customer" />
-            <img src={require("../assets/r4.png")} alt="customer" />
-            <img src={require("../assets/r5.png")} alt="customer" />
+            <img
+              src={require("../assets/r1.png")}
+              alt="customer"
+              className="review-img"
+            />
+            <img
+              src={require("../assets/r2.png")}
+              alt="customer"
+              className="review-img"
+            />
+            <img
+              src={require("../assets/r3.png")}
+              alt="customer"
+              className="review-img"
+            />
+            <img
+              src={require("../assets/r4.png")}
+              alt="customer"
+              className="review-img"
+            />
+            <img
+              src={require("../assets/r5.png")}
+              alt="customer"
+              className="review-img"
+            />
           </div>
         </div>
       </div>

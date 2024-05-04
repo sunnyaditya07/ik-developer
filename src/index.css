@@ -43,16 +43,19 @@ body {
   color: transparent;
 }
 .paddin-left {
-  padding-left: 100px;
+  padding-left: 20px;
 }
 .paddin-right {
-  padding-right: 100px;
+  padding-right: 20px;
 }
 .padding-top {
-  padding-top: 80px;
+  padding-top: 20px;
 }
 .padding-bottom {
-  padding-bottom: 80px;
+  padding-bottom: 20px;
+}
+.padding {
+  padding: 20px;
 }
 .position-absolute {
   position: absolute;
@@ -66,4 +69,31 @@ body {
   background: linear-gradient(to bottom, #f76680 0%, #57007b 100%);
   border-radius: 100px 100px 0 0;
   position: absolute;
+}
+
+@media only screen and (min-width: 768px) {
+  .paddin-left {
+    padding-left: 40px;
+  }
+  .paddin-right {
+    padding-right: 40px;
+  }
+}
+
+@media only screen and (min-width: 991px) {
+  .paddin-left {
+    padding-left: 60px;
+  }
+  .paddin-right {
+    padding-right: 60px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .paddin-left {
+    padding-left: 80px;
+  }
+  .paddin-right {
+    padding-right: 80px;
+  }
 }

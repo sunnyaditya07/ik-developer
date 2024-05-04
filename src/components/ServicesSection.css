@@ -12,8 +12,12 @@
   font-weight: 700;
   margin-bottom: 40px;
 }
+.ik-services-main-cont {
+  flex-direction: column;
+  gap: 20px;
+}
 .ik-services-section-box {
-  width: 32%;
+  width: 100%;
   background: #ffff;
   border-radius: 5px;
   padding: 25px 15px 25px 15px;
@@ -38,6 +42,9 @@
   color: #4a5568;
   line-height: 1.5;
 }
+.ik-services-carousel-cont {
+  display: none;
+}
 .ik-service-section-carousel-main-container {
   margin-top: 40px;
   padding-left: 100px;
@@ -51,6 +58,7 @@
 }
 .ik-services-empty-box {
   width: 200px;
+  display: none;
 }
 .ik-services-carousel-container {
   width: 200px;
@@ -72,4 +80,34 @@
 .ik-services-carousel-number-container {
   width: 200px;
   gap: 5px;
+}
+
+@media only screen and (min-width: 768px) {
+  /* .ik-service-section-carousel-main-container {
+    justify-content: center;
+  } */
+  .ik-service-section-carousel-main-container {
+    justify-content: center;
+  }
+  .ik-services-carousel-container {
+    justify-content: space-between;
+  }
+}
+
+@media only screen and (min-width: 991px) {
+  .ik-services-main-cont {
+    flex-direction: row;
+  }
+  .ik-services-empty-box {
+    display: block;
+  }
+  .ik-service-section-carousel-main-container {
+    justify-content: space-between;
+  }
+  .ik-services-carousel-cont {
+    display: block;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
 }
