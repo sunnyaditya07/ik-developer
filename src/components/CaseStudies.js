@@ -6,8 +6,8 @@ const CaseStudies = () => {
     <div>
       <div className="ik-cs-main-container paddin-left paddin-right">
         <div className="display-flex align-items-center flex-deirection-column">
-          <div className="ik-about-line"></div>
-          <div className="display-flex align-items-center flex-deirection-column ik-cr-title-box">
+          <div className="ik-about-line ik-cs-line"></div>
+          <div className="display-flex align-items-center flex-deirection-column ik-cs-title-box ik-cr-title-box">
             <p>Our recent</p>
             <p className="ik-cr-wroking-text">Case studies </p>
           </div>

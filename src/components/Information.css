@@ -5,10 +5,10 @@
   transform: rotate(180deg);
 }
 .ik-about-container {
-  /* margin-top: 100px;
-  margin-bottom: 100px; */
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  /* padding-top: 100px; */
+  /* padding-bottom: 100px; */
   flex-direction: column;
   gap: 30px;
 }
@@ -25,41 +25,52 @@
   width: 40px;
   height: 4px;
   background: linear-gradient(to bottom, #f76680 0%, #57007b 100%);
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
+  margin-bottom: 40px;
 }
 .ik-about-img {
   /* width: 75%; */
   width: 100%;
 }
 .ik-about-leading-text {
-  font-size: 34px;
+  /* font-size: 34px; */
+  font-size: 28px;
   color: #1a202c;
+  text-align: center;
 }
 .ik-about-develop-text {
-  font-size: 34px;
+  /* font-size: 34px; */
+  font-size: 28px;
   font-weight: 700;
   color: #1a202c;
   margin-top: 10px;
+  text-align: center;
 }
 .ik-about-description-text {
-  font-size: 18px;
+  /* font-size: 18px; */
+  font-size: 14px;
   line-height: 2;
   margin-top: 20px;
   color: #718096;
+  text-align: center;
 }
 
 .ik-about-see-more-text {
   color: #57007b;
   font-size: 16px;
   font-weight: 600;
-  margin-top: 40px;
+  margin-top: 20px;
+  text-align: center;
+  /* margin-top: 40px; */
   cursor: pointer;
 }
 .ik-about-see-more-text span {
   margin-left: 10px;
 }
 .ik-about-meet-text-box {
-  font-size: 34px;
+  /* font-size: 34px; */
+  font-size: 28px;
+  text-align: center;
   color: #1a202c;
 }
 .ik-about-working-text {
@@ -109,6 +120,28 @@
   .ik-about-container {
     /* width: 50%; */
   }
+  .ik-about-text-container {
+    align-items: start;
+  }
+  .ik-about-container {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+  .ik-about-leading-text {
+    font-size: 34px;
+    text-align: start;
+  }
+  .ik-about-develop-text {
+    font-size: 34px;
+    text-align: start;
+  }
+  .ik-about-description-text {
+    font-size: 18px;
+    text-align: start;
+  }
+  .ik-about-see-more-text {
+    text-align: start;
+  }
   .ik-about-container {
     flex-direction: row;
   }
@@ -117,6 +150,13 @@
   }
   .ik-about-half-circle-position {
     left: 60%;
+  }
+  .ik-about-work-cont {
+    align-items: start;
+  }
+  .ik-about-meet-text-box {
+    text-align: start;
+    font-size: 34px;
   }
 }
 

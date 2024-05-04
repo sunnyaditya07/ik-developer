@@ -5,7 +5,7 @@ const HeroSection = () => {
     <div className="ik-hero-section-main-container">
       <div className="display-flex align-items-center ik-hero-section-container paddin-left  paddin-right ">
         <div className="ik-hero-section-title-container">
-          <div>
+          <div className="ik-hero-title-box">
             <p className="ik-hero-title-one">
               Great{" "}
               <span className="ik-hero-product-span text-linear-color ">
@@ -23,7 +23,7 @@ const HeroSection = () => {
               your vision to life
             </p>
           </div>
-          <div>
+          <div className="ik-hero-lets-btn-cont display-flex align-items-center justify-content-center ">
             <p className="ik-hero-section-btn">Let’s get started!</p>
           </div>
         </div>

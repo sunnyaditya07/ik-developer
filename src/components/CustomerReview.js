@@ -6,7 +6,7 @@ const CustomerReview = () => {
       <div className="ik-cr-main-container">
         <div className="display-flex align-items-center flex-deirection-column ik-cr-container ">
           <div className="display-flex align-items-center flex-deirection-column">
-            <div className="ik-about-line"></div>
+            <div className="ik-about-line ik-cr-line"></div>
             <div className="display-flex align-items-center flex-deirection-column ik-cr-title-box">
               <p>Why cutomers love</p>
               <p className="ik-cr-wroking-text">working with us</p>

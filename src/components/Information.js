@@ -5,8 +5,8 @@ const Information = () => {
     <div>
       <div className="paddin-left paddin-right ik-about-main-container">
         <div class="ik-half-circle ik-about-half-circle"></div>
-        <div className="display-flex justify-content-space-between ik-about-container">
-          <div className="ik-about-text-container">
+        <div className="display-flex justify-content-space-between ik-about-container  ">
+          <div className="ik-about-text-container display-flex align-items-center  flex-deirection-column">
             <div className="ik-about-line"></div>
             <div>
               <p className="ik-about-leading-text">
@@ -36,7 +36,7 @@ const Information = () => {
             />
           </div>
         </div>
-        <div>
+        <div className="display-flex flex-deirection-column align-items-center ik-about-work-cont">
           <div className="ik-about-line"></div>
           <div className="ik-about-meet-text-box">
             <p className="ik-about-meet-text">Meet the People</p>

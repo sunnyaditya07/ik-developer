@@ -9,7 +9,7 @@ const ServicesSection = () => {
         </div>
         <div className="paddin-left  paddin-right ">
           <div className="display-flex align-items-center justify-content-space-between ik-services-main-cont">
-            <div className="ik-services-section-box">
+            <div className="ik-services-section-box display-flex align-items-center justify-content-center">
               <div className="display-flex align-items-center justify-content-center ik-services-icon-container">
                 <img src={require("../assets/code.png")} alt="logo" />
               </div>
@@ -22,7 +22,7 @@ const ServicesSection = () => {
                 asset because we live in a digital age.
               </p>
             </div>
-            <div className="ik-services-section-box ik-services-middle-box">
+            <div className="ik-services-section-box ik-services-middle-box display-flex align-items-center justify-content-center">
               <div className="display-flex align-items-center justify-content-center ik-services-icon-container">
                 <img src={require("../assets/code.png")} alt="logo" />
               </div>
@@ -35,7 +35,7 @@ const ServicesSection = () => {
                 asset because we live in a digital age.
               </p>
             </div>{" "}
-            <div className="ik-services-section-box">
+            <div className="ik-services-section-box display-flex align-items-center justify-content-center">
               <div className="display-flex align-items-center justify-content-center ik-services-icon-container">
                 <img src={require("../assets/code.png")} alt="logo" />
               </div>

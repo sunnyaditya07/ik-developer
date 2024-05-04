@@ -1,12 +1,30 @@
 .ik-brand-logo-container {
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   background: #f7f7fa;
   border-top: 1px solid #e7daed;
   border-bottom: 1px solid #e7daed;
-  overflow: scroll;
+  /* overflow: scroll; */
+  flex-wrap: wrap;
   gap: 30px;
+  justify-content: center;
 }
 .brand-logo {
   width: 150px;
+}
+
+@media only screen and (min-width: 768px) {
+}
+
+@media only screen and (min-width: 991px) {
+  .ik-brand-logo-container {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .ik-brand-logo-container {
+    justify-content: space-between;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
 }
